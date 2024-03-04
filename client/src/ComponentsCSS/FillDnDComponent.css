@@ -1,0 +1,56 @@
+.fdnd-body{
+    display: inline-block;
+    width: 80%;
+    border: solid black 1px;
+    min-height: 40vh;
+}
+
+.fdnd-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    border: solid black 1px;
+    margin: 3rem;
+    font-size: 1.8rem;
+}
+/* s === slot */
+.fdnd-s1,
+.fdnd-s2,
+.fdnd-s3,
+.fdnd-s4,
+.fdnd-s5,
+.fdnd-toDrag {
+    margin: auto 0;
+    border: solid black 1px;
+    width: 10%;
+    height: 15vh;
+}
+
+.fdnd-s2,
+.fdnd-s4{
+    border: none;
+}
+
+.fdnd-s5{
+    border: none;
+    text-align: left;
+}
+
+.fdnd-drag-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+}
+
+
+.fdnd-toDrag{
+    border: none;
+    margin: 5px;
+}
+
+.fdnd-drag1{
+    width: 100%;
+    height: 100%;
+}

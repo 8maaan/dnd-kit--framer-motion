@@ -1,0 +1,19 @@
+.test2-body{
+    display: inline-block;
+    width: 80%;
+    border: solid black 1px;
+    height: 40vh;
+}
+
+.test2-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    margin: 5%;
+}
+
+.test2-drop-zone{
+    border: solid black 1px;
+    width: 10rem;
+}
